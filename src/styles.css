@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 0px;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+img {
+  height: 300px;
+  width: auto;
+}
+.box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
